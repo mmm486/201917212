@@ -1,0 +1,40 @@
+ *{
+            margin:0;
+            padding: 0;
+        }
+        ul{
+            width: 1000px;
+            height: 40px;
+            /*background-color: green;*/
+            margin: 100px auto;
+
+        }
+        ul li1{
+            list-style: none;
+            width: 240px;
+            height: 40px;
+            float: left;
+            /*background-color: purple;*/
+            text-align: center;
+            line-height: 40px;
+        }
+        ul li1 a{
+            width: 240px;
+            height: 40px;
+            display: inline-block;
+        }
+
+        ul li1 a:link{
+            background-color: #c0d4ff;
+            color: #d95454;
+            text-decoration: none;
+        }
+
+        ul li1 a:hover{
+            color: red;
+            background-color: #ccc;
+        }
+        ul li1 a:active{
+            color: yellow;
+
+        }
